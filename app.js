@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const HttpError = require("./models/http-error");
 const BASE_URL = "/api";
 
-//Controller assignation
 const userRoutes = require("./routes/user-routes");
 const barterItemRoutes = require("./routes/barter-item-routes");
 const publicationRoutes = require("./routes/publication-routes");
